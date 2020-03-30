@@ -1,10 +1,16 @@
 <template>
-  <h2>home</h2>
+  <div id='home'>
+    <nav-bar><div slot='center'></div></nav-bar>
+  </div>
 </template>
 
 <script>
+import NavBar from 'components/common/navbar/NavBar'
 export default {
-  name: 'Home'
+  name: 'Home',
+  components: {
+    NavBar,
+  }
 }
 </script>
 
