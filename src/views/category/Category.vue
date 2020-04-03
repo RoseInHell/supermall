@@ -1,13 +1,19 @@
 <template>
-  <h2>category</h2>
+  <div class='wrapper'>
+  
+  </div>
 </template>
 
 <script>
+
+
 export default {
-  name: 'Category'
+  name: 'Category',
+  
+  
 }
 </script>
 
-<style>
+<style scoped>
 
 </style>
